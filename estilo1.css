@@ -1,11 +1,80 @@
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 #contenedor{
-    width: 1200px;
-    height: 1000px;
-    background:rgb(132, 0, 255);
+    width: auto;
+    height: auto;
+    background-color: #2a2a2a;
+    color: #fff;
     margin: 0.5em auto;
+}
+#menu a{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    
+}
+#menu li{
+    list-style: none;
+    
+}
+#navVar{
+    margin-left: 35%;
+    padding: 2em;
+}
+#menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+#menu #active{
+    color: aqua;
+}
+#main{
+    margin: 0 auto;
+    width: 90vw;
+    height: 55vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+    padding: 3em;
+}
+span{
+    color: blueviolet;
+}
+#tituloConoceme{
+    align-items: center;
+    text-align: center;
+
+}
+#hobies{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+     
+}
+.img1{
+    width: 50%;
+    padding: 5em;
+}
+.img2{
+    width: 50%;
+    padding: 5em;
+}
+.img3{
+    width: 50%;
+    padding: 5em;
+}
+#imagen3{
+    width: 100px;
+    height: 100px;
 }
